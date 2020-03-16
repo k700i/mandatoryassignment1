@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background-image: url("GuatemalaBackground.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: tekstfont;
+
+}
+
+h1{
+    padding:20px;
+    color: #fff;
+    font-size: 5em;
+    font-family: tittelfont;
+}
+
+h2{
+    font-family: tittelfont;
+}
+
+
+#wrapper{
+    
+    margin-top: 30px;
+}
+
+
+#leftside{
+    height: 600px;
+    width: 50%;
+    float: left;
+    overflow-y: scroll;
+    background-color: #fff;
+    opacity: 0.9;
+    margin: 5% 0 0 5%;
+    padding:10px;
+}
+
+
+#rightside{
+    height: 600px;
+    width: 40%;
+    overflow: hidden;  
+}
+
+ #infocontainer{
+    margin: 60px;
+    width: 90%;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 1;
+    overflow-y: scroll;   
+}
+
+footer{
+    width: 100%;
+    position fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    position: absolute;
+    
+    text-align: center;
+}
+
+.cuisineimg{
+    height: 150px;
+}
+
+.picimg{
+    height: 150px;
+}
+
+#flag{
+    height: 20px;
+    padding-top: 8px;
+    margin-left: 0;
+    padding-left: -5px;
+    
+}
+
+ul{
+    list-style-type: none;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    color: #444;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+
+a:hover{
+    color: #fff; 
+    background-color: #050626;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: tittelfont;
+    src: url(ARBERKLEY.ttf);
+}
+
+
+@font-face {
+    font-family: tekstfont;
+    src: url(corbel.ttf);
+}
